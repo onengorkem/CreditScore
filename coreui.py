@@ -13,6 +13,7 @@ class MainWindow:
         self.ui.setupUi(self.main_win)
         self.ui.stackedWidget.setCurrentWidget(self.ui.boruta_widget)
         self.ui.radioButton_4.setChecked(True)
+
         self.ui.radioButton_5.setChecked(True)
         self.ui.radioButton_3.clicked.connect(self.show_page)
         self.ui.radioButton_4.clicked.connect(self.show_page)
